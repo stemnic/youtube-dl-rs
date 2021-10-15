@@ -312,6 +312,8 @@ pub enum Protocol {
     M3U8,
     #[serde(rename = "m3u8_native")]
     M3U8Native,
+    #[serde(rename = "niconico_dmc")]
+    NiconicoDmc
     #[serde(rename = "http_dash_segments")]
     HttpDashSegments,
 }
