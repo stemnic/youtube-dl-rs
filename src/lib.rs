@@ -332,7 +332,7 @@ impl YoutubeDl {
     fn path(&self) -> &Path {
         match &self.youtube_dl_path {
             Some(path) => path,
-            None => Path::new("youtube-dl"),
+            None => Path::new("yt-dlp"),
         }
     }
 
